@@ -3,7 +3,7 @@
     "clusterId": "cluster1",
     "destinations": {
       "destination1" : {
-        "address": "https://jsonplaceholder.typicode.com"
+        "Address": "https://jsonplaceholder.typicode.com"
       }
     }
   }
