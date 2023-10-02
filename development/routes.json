@@ -1,0 +1,9 @@
+[
+  {
+    "routeId":"route1",
+    "clusterId": "cluster1",
+    "match": {
+      "path": "{**catch-all}"
+    }
+  }
+]
