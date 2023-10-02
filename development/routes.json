@@ -1,9 +1,28 @@
 [
   {
-    "routeId":"route1",
+    "routeId": "route1",
     "clusterId": "cluster1",
+    "rateLimiterPolicy": "fixed",
     "match": {
-      "path": "{**catch-all}"
-    }
+      "path": "/mock/{**catch-all}"
+    },
+    "transforms": [
+      {
+        "PathPattern": "{**catch-all}"
+      }
+    ]
+  },
+  {
+    "routeId": "route1",
+    "clusterId": "cluster1",
+    "rateLimiterPolicy": "fixed",
+    "match": {
+      "path": "/demo/{**catch-all}"
+    },
+    "transforms": [
+      {
+        "PathPattern": "{**catch-all}"
+      }
+    ]
   }
 ]
