@@ -1,9 +1,9 @@
 [
   {
-    "clusterId": "cluster1",
+    "clusterId": "shortener",
     "destinations": {
-      "destination1" : {
-        "address": "https://jsonplaceholder.typicode.com"
+      "destination1": {
+        "address": "https://en-shortener-service.azurewebsites.net/api/v1"
       }
     }
   }

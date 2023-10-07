@@ -1,9 +1,14 @@
 [
   {
-    "routeId":"route1",
-    "clusterId": "cluster1",
+    "routeId": "shortener",
+    "clusterId": "shortener",
     "match": {
-      "path": "{**catch-all}"
-    }
+      "path": "/links/{**catch-all}"
+    },
+    "transforms": [
+      {
+        "PathPattern": "{**catch-all}"
+      }
+    ]
   }
 ]
