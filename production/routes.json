@@ -3,7 +3,7 @@
     "routeId": "shortener",
     "clusterId": "shortener",
     "match": {
-      "path": "/links/{**catch-all}"
+      "path": "/shortener/{**catch-all}"
     },
     "transforms": [
       {
