@@ -3,7 +3,7 @@
     "clusterId": "shortener",
     "destinations": {
       "destination1": {
-        "address": "https://en-shortener-service.azurewebsites.net/api/v1"
+        "Address": "https://en-shortener-service.azurewebsites.net/api/v1"
       }
     }
   }
