@@ -6,5 +6,13 @@
         "Address": "https://en-shortener-service.azurewebsites.net/api/v1"
       }
     }
+  },
+  {
+    "clusterId": "sms",
+    "destinations": {
+      "destination1": {
+        "Address": "https://services.engagenest.com/messaging/v1"
+      }
+    }
   }
 ]

@@ -10,5 +10,17 @@
         "PathPattern": "{**catch-all}"
       }
     ]
+  },
+  {
+    "routeId": "sms",
+    "clusterId": "sms",
+    "match": {
+      "path": "/v1/sms/{**catch-all}"
+    },
+    "transforms": [
+      {
+        "PathPattern": "{**catch-all}"
+      }
+    ]
   }
 ]
