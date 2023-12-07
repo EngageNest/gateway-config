@@ -11,7 +11,7 @@
     "clusterId": "sms",
     "destinations": {
       "destination1": {
-        "Address": "https://services.engagenest.com/messaging/v1/sms"
+        "Address": "https://services.engagenest.com/messaging/v1"
       }
     }
   }
