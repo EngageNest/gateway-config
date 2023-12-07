@@ -15,7 +15,7 @@
     "routeId": "sms",
     "clusterId": "sms",
     "match": {
-      "path": "/v1/sms/{**catch-all}"
+      "path": "/sms/v1/{**catch-all}"
     },
     "transforms": [
       {
